@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'BatFramework',
+  tagline: 'A python framework for making games',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://TuranBaturay.github.io',
+  url: 'https://github.com/BatFramework/batFramework',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/batFramework/',
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} batFramework, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
