@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbat_documentation=self.webpackChunkbat_documentation||[]).push([[374],{6421:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/batDocumentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
