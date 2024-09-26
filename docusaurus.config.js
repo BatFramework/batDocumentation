@@ -12,18 +12,12 @@ const config = {
   tagline: 'A python framework for making games',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://github.com/BatFramework/batFramework',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/batFramework/',
+  url: 'https://batframework.github.io',
+  baseUrl: '/batDocumentation/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'BatFramework', // Usually your GitHub org/user name.
-  projectName: 'batFramework', // Usually your repo name.
+  organizationName: 'BatFramework', // GitHub organization name
+  projectName: 'batDocumentation',  // Repo name for the docs
 
-  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,17 +35,11 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/BatFramework/batDocumentation/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/BatFramework/batDocumentation/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,7 +68,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/TuranBaturay/batFramework',
+            href: 'https://github.com/BatFramework/batFramework',
             label: 'GitHub',
             position: 'right',
           },
