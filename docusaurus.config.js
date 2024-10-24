@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'BatFramework',
   tagline: 'A python framework for making games',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://batframework.github.io',
   baseUrl: '/batDocumentation/',
@@ -37,10 +37,6 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/BatFramework/batDocumentation/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/BatFramework/batDocumentation/tree/main/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -52,21 +48,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'BatFramework',
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/category/examples', // Directly point to the correct path
+            position: 'left',
+            label: 'Examples',
+          },
           {
             href: 'https://github.com/BatFramework/batFramework',
             label: 'GitHub',
@@ -81,8 +77,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Examples',
+                to: '/docs/category/examples',
               },
             ],
           },
@@ -90,34 +90,14 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/5Sj8MypRn8',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} batFramework, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} batFramework, Inc.`,
       },
       prism: {
         theme: prismThemes.github,

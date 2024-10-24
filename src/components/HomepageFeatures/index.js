@@ -4,42 +4,47 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Written in Python',
+    Svg: require('@site/static/img/python.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        BatFramework is written in the Python programming language, using the pygame-ce
+        library which is built on top of SDL. This grants users ease of use and 
+        facilitates the understanding of the framework.
+        
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Cross-Platform',
+    ImgSrc: require('@site/static/img/platforms.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Being based on pygame-ce and thus SDL, batFramework projects can be compiled into
+        executables for Linux, Windows, MacOS and WebAssembly. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Open Source',
+    Svg: require('@site/static/img/opensource.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        BatFramework is open source and published on github. 
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, ImgSrc, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {Svg ? (
+          <Svg className={styles.featureSvg} role="img" />
+        ) : (
+          <img src={ImgSrc} alt={title} className={styles.featureImg} role="img" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
