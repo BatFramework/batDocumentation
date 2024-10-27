@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="BatDocumentation of BatFramework">
+      title={`BatDocumentation of BatFramework`}
+      description="Documentation for the amazing BatFramework">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
