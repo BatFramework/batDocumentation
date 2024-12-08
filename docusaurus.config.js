@@ -93,7 +93,10 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/5Sj8MypRn8',
               },
-
+              {
+                label:'Doxygen',
+                href: '/static/html/index.html'
+              }
             ],
           },
         ],

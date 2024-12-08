@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['radio_5fvalue_0',['radio_value',['../classbat_framework_1_1gui_1_1radio_button_1_1_radio_button.html#a8408c2fc56298de5e4b3e992a9ecc95e',1,'batFramework::gui::radioButton::RadioButton']]],
+  ['radio_5fvariable_1',['radio_variable',['../classbat_framework_1_1gui_1_1radio_button_1_1_radio_button.html#afd1d1d322957f84ac780e83969274d79',1,'batFramework::gui::radioButton::RadioButton']]],
+  ['ratio_2',['ratio',['../classbat_framework_1_1gui_1_1constraints_1_1constraints_1_1_aspect_ratio.html#aedf7e8edd2667d4df969ec86105771de',1,'batFramework::gui::constraints::constraints::AspectRatio']]],
+  ['rect_3',['rect',['../classbat_framework_1_1animated_sprite_1_1_animated_sprite.html#a4137201c9858b9b92b5643e5a0fccf60',1,'batFramework.animatedSprite.AnimatedSprite.rect'],['../classbat_framework_1_1camera_1_1_camera.html#a59837a5c09d8908afde8abc8cf5998a3',1,'batFramework.camera.Camera.rect'],['../classbat_framework_1_1drawable_1_1_drawable.html#a7e16f56c7c069f2fab04ada84fddf85d',1,'batFramework.drawable.Drawable.rect'],['../classbat_framework_1_1entity_1_1_entity.html#aba5bca4ea1d358e51d8f186aa0e8ebb3',1,'batFramework.entity.Entity.rect'],['../classbat_framework_1_1gui_1_1root_1_1_root.html#a4c3070916a58a4c74b067f3dc7cb7168',1,'batFramework.gui.root.Root.rect'],['../classbat_framework_1_1gui_1_1widget_1_1_widget.html#a84667fe3b7e6dbbd6de21a0837fcd73a',1,'batFramework.gui.widget.Widget.rect'],['../classbat_framework_1_1particle_1_1_basic_particle.html#a3fdbc0af87b99940dd2f8e6bf4d93318',1,'batFramework.particle.BasicParticle.rect'],['../classbat_framework_1_1particle_1_1_particle_generator.html#ac75370117d839adc3dcd9e425c056fd7',1,'batFramework.particle.ParticleGenerator.rect'],['../classbat_framework_1_1scrolling_sprite_1_1_scrolling_sprite.html#a4b4c69fd42f87736964834d6fecf9455',1,'batFramework.scrollingSprite.ScrollingSprite.rect']]],
+  ['red_4',['RED',['../classbat_framework_1_1enums_1_1color.html#a9adc2ab646cbda557e9db4e4643c4d39',1,'batFramework::enums::color']]],
+  ['red_5fshade_5',['RED_SHADE',['../classbat_framework_1_1enums_1_1color.html#a1d4fbcda27f59635279b18196fb12bb5',1,'batFramework::enums::color']]],
+  ['ref_5faxis_6',['ref_axis',['../classbat_framework_1_1gui_1_1constraints_1_1constraints_1_1_aspect_ratio.html#a9bcf1eeceb5323f05e16d14bf6e29203',1,'batFramework::gui::constraints::constraints::AspectRatio']]],
+  ['refresh_5fcounter_7',['refresh_counter',['../classbat_framework_1_1gui_1_1debugger_1_1_debugger.html#a2acbfc06a77d2259aa6f4fb6e5a071d0',1,'batFramework::gui::debugger::Debugger']]],
+  ['refresh_5frate_8',['refresh_rate',['../classbat_framework_1_1gui_1_1debugger_1_1_debugger.html#a81ae52aaddf346ab9e6c01456c52be64',1,'batFramework::gui::debugger::Debugger']]],
+  ['register_9',['register',['../classbat_framework_1_1time_manager_1_1_timer.html#a63a6dfbc8e06ab05a4e50e75c45a697d',1,'batFramework::timeManager::Timer']]],
+  ['registers_10',['registers',['../classbat_framework_1_1time_manager_1_1_time_manager.html#af8ac3ef0a2ff89d8e3a2da8e690c9dba',1,'batFramework::timeManager::TimeManager']]],
+  ['relief_11',['relief',['../classbat_framework_1_1gui_1_1shape_1_1_shape.html#ab22022c77d1af73235bd25437bf6fe20',1,'batFramework::gui::shape::Shape']]],
+  ['render_5forder_12',['render_order',['../classbat_framework_1_1drawable_1_1_drawable.html#ae8ba2bb48412ae752fa7594f028b8c68',1,'batFramework::drawable::Drawable']]],
+  ['resized_5fflag_13',['resized_flag',['../classbat_framework_1_1gui_1_1label_1_1_label.html#ac601cbdc3418de64800e75dd4d300643',1,'batFramework::gui::label::Label']]],
+  ['resolution_14',['RESOLUTION',['../classbat_framework_1_1constants_1_1_constants.html#a7dd7698f86c0e872c496cd5f5bd5fe0e',1,'batFramework::constants::Constants']]],
+  ['resource_5fpath_15',['RESOURCE_PATH',['../classbat_framework_1_1resource_manager_1_1_resource_manager.html#a106a750fb6271631634876cf394dd570',1,'batFramework::resourceManager::ResourceManager']]],
+  ['right_16',['RIGHT',['../classbat_framework_1_1enums_1_1alignment.html#a8a8ceb0413a15f084cbbccbdd3a33c64',1,'batFramework.enums.alignment.RIGHT'],['../classbat_framework_1_1enums_1_1direction.html#a9a659f6c954b56cc3f770c7c4a47d39c',1,'batFramework.enums.direction.RIGHT']]],
+  ['root_17',['root',['../classbat_framework_1_1scene_1_1_scene.html#acf434935ad0fb8d8698d4011ea92fda6',1,'batFramework::scene::Scene']]],
+  ['rows_18',['rows',['../classbat_framework_1_1gui_1_1layout_1_1_grid.html#a725bea650a2880f81a62438c02eca484',1,'batFramework::gui::layout::Grid']]],
+  ['running_19',['running',['../classbat_framework_1_1manager_1_1_manager.html#af76dae26064aa293f4c1e85fa45555b1',1,'batFramework::manager::Manager']]]
+];
